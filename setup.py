@@ -9,7 +9,7 @@ setup(
     author='maxvitek',
     author_email='',
     description='',
-    install_requires=['logging_subprocess', 'unittest2'],
+    install_requires=['logging_subprocess', 'unittest2', 'logutils'],
     entry_points={
         'console_scripts':
             ['drone = drone:main', ]
